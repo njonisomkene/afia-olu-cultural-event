@@ -17,6 +17,21 @@ ul{
     list-style: none;
 }
 
+  
+  .logo {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: inherit;
+    color: darkcyan; /* You can choose any color you prefer */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px; 
+    background-color:  #0d2b1c; /* You can choose a different background color if you like */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
 
 .nav-bar{
     background-color: #0d2b1c;
