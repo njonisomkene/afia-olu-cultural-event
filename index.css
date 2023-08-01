@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(17, 7, 7);
+}
 
 a{
     text-decoration: none;
@@ -17,33 +20,40 @@ ul{
     list-style: none;
 }
 
-  
-  .logo {
-    position: relative;
-    font-size: 2rem;
+#unique{ 
+    position: absolute;
+    background-color: darkcyan;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
     font-weight: bold;
-    font-family: inherit;
-    color: darkcyan; /* You can choose any color you prefer */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 10px 20px; 
-    background-color:  #0d2b1c; /* You can choose a different background color if you like */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-
-
-.nav-bar{
-    background-color: #0d2b1c;
-    width: 100%;
-    height: 70px;
-    padding-top: 20px;
+    border-radius: 40px;
+    display: inline;
+    top: 30px;
+    margin-left: -40px;
+    margin-top:-15px ;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 
-.nav-bar ul{
+.nav-bar{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+
+
+.nav-bar >ul{
     display: inline-flex;
-    margin-left: 17rem;
+    margin-left: 20rem;
+    margin-bottom: -;
 }
 .nav-bar ul li a{
     display: block;
@@ -66,7 +76,7 @@ ul{
 }
 
 .nav-bar ul li a.active:hover{
-    background-color:darkcyan ;
+    background-color:rgb(0, 15, 15) ;
     border-radius: 9px;
 }
 
@@ -74,4 +84,13 @@ ul{
     background-color: darkcyan;
     border-radius: 10px;
     
+}
+
+.title {
+    padding: 20px 30px;
+    top: 20px;
+    font-size: 30px
+}
+.title #nnewi{
+    pa;
 }
