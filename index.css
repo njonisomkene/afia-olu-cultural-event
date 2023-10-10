@@ -7,8 +7,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.section-p{
+    padding: 60px 60px ;
+    }
 body{
-    background-color: rgb(17, 7, 7);
+    background-color: rgb(109, 46, 46);
 }
 
 a{
@@ -25,7 +30,7 @@ ul{
     background-color: darkcyan;
     border: none;
     padding: 20px;
-    color: white;
+    color:aliceblue;
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
@@ -54,8 +59,8 @@ ul{
 .nav-bar >ul{
     display: inline-flex;
     margin-left: 20rem;
-    margin-bottom: -;
 }
+
 .nav-bar ul li a{
     display: block;
     padding: 10px 20px;
@@ -88,10 +93,42 @@ ul{
 }
 
 .title {
-    padding: 20px 30px;
+    
     top: 20px;
-    font-size: 30px
+    font-size: 30px;
 }
-.title #nnewi{
-    pa;
+
+
+.hero .con1{
+    border: 1px solid rgb(70, 77, 58);
+    width: 250px;
+    height: 300px;
+    background: rgb(124, 103, 145);
+    border-radius: 10px;
+    
+}
+.hero .con1:hover{
+    box-shadow: 2px 2px rgb(106, 136, 146);
+    
+}
+
+.hero .con1 img{
+    width: 230px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.hero .con1 p{
+    color: rgb(6, 73, 73);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.hero .con1 span{
+    color: rgb(207, 178, 45);
 }
